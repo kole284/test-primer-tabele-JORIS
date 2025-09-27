@@ -1,0 +1,31 @@
+.sivi-okvir{
+border: 4px solid #e56024; /* Narandžasta boja */
+  padding: 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+table{
+    border:1px solid gray;
+    border-collapse:collapse;
+    td,th{
+        border:1px solid gray;
+    }
+    thead{
+        background-color:#FF3400;
+        th{
+            width:100px;
+            color:white;
+        }
+    }
+    td{
+        text-align: center;
+        padding:5px;
+    }
+    button{
+        background-color:#29ff00;
+        padding:3%;
+        &:hover{
+            cursor:pointer;
+        }
+    }
+}
